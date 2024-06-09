@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header{
+    background-color:rgb(112, 115, 112);
+   height: 180px;
+
+    grid-area: hd;
+}
+
+main{
+    background-color:#b0b7c0;
+  height: 800px;
+
+   grid-area: mn;
+}
+
+
+
+.logo{
+    display: flex;
+    margin: auto;
+    width: 30%;
+    padding: 50px;
+    
+}
+
+
+#btnHeader{
+    background-color:rgb(176, 183, 192);
+    position: absolute;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font-size: 26px;
+}
+
+.homeButton{
+    top: 6%;
+    left: 6%;
+}
+
+.aboutButton{
+    top: 6%;
+    left: 70%;
+}
+
+.contactButton{
+    top: 6%;
+    left: 85%;
+}
+
+.wrapper{
+    padding: 100px;
+    margin-left: 250px;
+    margin-right:350px ;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
+    list-style: none;
+    gap:300px;
+    grid-area: l1;
+    text-align: center;
+};
+
+.wrapper li{
+    border: 3px solid black;
+}
+.wrapper li h2{
+    border: 3px solid black;
+    padding: 20px;
+}
+
+.wrapper li a{
+    border: 3px solid black;
+}
+
+.wrapper li p{
+    border: 3px solid black;
+    padding: 15px;
+}
+
+.product1{
+    border: 2px solid black;
+    width: 550px;
+    height: 600px;
+}
+
+.product2{
+    border: 2px solid black;
+    width: 550px;
+    height: 600px;
+}
+
+.hugoLogo{
+width: 100%;
+}
+
+.jordanLogo{
+width: 100%;
+}
