@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Hoodie",
+    "description": "Ducks hoodie met logoprint.",
+    "colour": "Zwart",
+    "imageUrl": "https:\/\/cdn-1.debijenkorf.nl\/web_detail\/hugo-boss-ducks-hoodie-met-logoprint\/?reference=059\/220\/0592201263300000_pro_mod_det_01_1108_1528_1674482405.jpg",
+    "price": 129.95,
+    "sizes": ["XS", "S", "M"]
+  },
+  {
+    "title": "Hoodie",
+    "description": "Esoca hoodie van pailletten met logoprint.",
+    "colour": "Goud",
+    "imageUrl": "https:\/\/cdn-1.debijenkorf.nl\/web_detail\/hugo-boss-esoca-hoodie-van-pailletten-met-logoprint\/?reference=059\/770\/0597701431600000_pro_mod_det_01_1108_1528_1672913041.jpg",
+    "price": 299,
+    "sizes": ["S", "M", "XL"]
+  },
+  {
+    "title": "Hoodie",
+    "description": "NBA hoodie met camouflageprint.",
+    "colour": "Legergroen",
+    "imageUrl": "https:\/\/cdn-1.debijenkorf.nl\/web_detail\/hugo-boss-nba-hoodie-met-camouflageprint\/?reference=056\/320\/0563201254700000_pro_mod_det_01_1108_1528_7456199.jpg",
+    "price": 179.95,
+    "sizes": ["S", "M", "L"]
+  }
+]
