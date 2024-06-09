@@ -1,0 +1,39 @@
+[
+    {
+        "title": "Sweatvest",
+        "description": "Essentials 3-Stripes sweatvest met logoborduring.",
+        "colour": "Zwart",
+        "imageUrl": "https:\/\/cdn-1.debijenkorf.nl\/web_detail\/adidas-essentials-3-stripes-sweatvest-met-logoborduring\/?reference=050\/050\/0500509000612002_pro_mod_det_01_1108_1528_6275114.jpg",
+        "price": 65,
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L"
+        ]
+    },
+    {
+        "title": "Sweater",
+        "description": "Sweater met logoborduring.",
+        "colour": "Zilver",
+        "imageUrl": "https:\/\/cdn-1.debijenkorf.nl\/web_detail\/adidas-sweater-met-logoborduring\/?reference=068\/860\/0688601000303140_pro_flt_frt_01_1108_1528_1674032648.jpg",
+        "price": 38,
+        "sizes": [
+            "128",
+            "140",
+            "152"
+        ]
+    },
+    {
+        "title": "Training sweater",
+        "description": "Trainings sweater met ritszak.",
+        "colour": "Zwart",
+        "imageUrl": "https:\/\/cdn-1.debijenkorf.nl\/web_detail\/adidas-trainings-sweater-met-ritszak\/?reference=050\/050\/0500501000812002_pro_mod_det_01_1108_1528_1673450787.jpg",
+        "price": 65,
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ]
+    }
+]

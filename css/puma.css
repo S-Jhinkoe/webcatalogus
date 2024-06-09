@@ -92,57 +92,44 @@ main {
     grid-area: mn;
 }
 
-.puma-displayer{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 698px;
-    background-color: #B0BC70;
+.puma-displayer {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 img[alt="pumashoe"] {
+    margin-top: 5px;
     height: 450px;
     width: 450px;
     object-fit: cover;
     border-radius: 5px;
 }
 
-.puma1{
-    grid-area: 1/1/2/2;
-    justify-self: center;
-    align-self: center;
-    text-align: center; 
-}
-.puma2 {
-    grid-area: 1/2/2/3;
-    justify-self: center;
-    align-self: center;
-    text-align: center;
-}
-.puma3 {
-    grid-area: 1/3/2/4;
-    justify-self: center;
-    align-self: center;
-    text-align: center;
-}
 
-.puma1 h3:nth-child(2), .puma2 h3:nth-child(2), .puma3 h3:nth-child(2){
+.card h3:nth-child(2) {
     width: 240px;
     margin: 10px auto;
 }
 
-.puma1 h3:nth-child(3), .puma2 h3:nth-child(3), .puma3 h3:nth-child(3){
+.card h3:nth-child(3) {
     width: 250px;
     margin: 0px auto;
     margin-bottom: 10px;
 }
 
-.puma1 h3:nth-child(4), .puma2 h3:nth-child(4), .puma3 h3:nth-child(4){
+.card h3:nth-child(4) {
     width: 260px;
     margin: 0px auto;
     margin-bottom: 20px;
 }
 
-h3{
+h3 {
+    text-align: center;
     padding-left: 10px;
     margin-top: 10px;
     height: 30px;
@@ -151,7 +138,14 @@ h3{
     border-radius: 10px;
 }
 
-.puma1 a, .puma2 a, .puma3 a{
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card a {
+    align-self: center;
     text-decoration: none;
     color: white;
     font-size: 20px;
@@ -161,7 +155,8 @@ h3{
     font-weight: bold;
 }
 
-header .add-link, header .back-added-link {
+header .add-link,
+header .back-added-link {
     justify-self: center;
     align-self: center;
 }
@@ -208,34 +203,7 @@ header i {
         background-color: beige;
     }
 
-    .puma-displayer {
-        margin: 0px auto;
-        width: auto;
-        display: grid;
-        background-color: beige;
-        grid-template-columns: 1fr;
-        grid-template-areas:
-            "p1"
-            "p2"
-            "p3";
-        justify-items: center;
-        align-items: self-start;
-    }
-
-    .puma1 {
-        grid-area: p1;
-    }
-
-    .puma2 {
-        grid-area: p2;
-    }
-
-    .puma3 {
-        grid-area: p3;
-        margin-bottom: 14px;
-    }
-
-    .puma1 a, .puma2 a, .puma3 a{
+    .card a {
         font-size: 15px;
     }
 
@@ -244,30 +212,10 @@ header i {
         border-radius: 5px;
     }
 
-    .puma3 [alt="pumashoe"] {
-        margin-top: 33px;
-    }
-
-    .puma1 h3:nth-child(2), .puma2 h3:nth-child(2), .puma3 h3:nth-child(2){
-        width: 240px;
-        margin: 2px auto;
-    }
-    
-    .puma1 h3:nth-child(3), .puma2 h3:nth-child(3), .puma3 h3:nth-child(3){
-        width: 250px;
-        margin: 0px auto;
-        margin-bottom: 2px;
-    }
-    
-    .puma1 h3:nth-child(4), .puma2 h3:nth-child(4), .puma3 h3:nth-child(4){
-        width: 260px;
-        margin: 0px auto;
-        margin-bottom: 6px;
-    }
 
 }
 
-@media screen and (min-width: 898px) and (max-width:1350px){
+@media screen and (min-width: 898px) and (max-width:1350px) {
     body {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -287,7 +235,8 @@ header i {
         grid-template-columns: repeat(3, 1fr);
     }
 
-    header nav, .lone-link {
+    header nav,
+    .lone-link {
         display: none;
     }
 
@@ -335,27 +284,6 @@ header i {
         background-color: beige;
     }
 
-    .puma-displayer{
-        width: auto;
-        background-color: beige;
-        display: grid;
-        grid-template-columns: repeat(6, 1fr);
-        grid-template-areas: 
-        "p1 p1 p1 p2 p2 p2"
-        ".  .  p3 p3  .  .";
-    }
-
-    .puma1{
-        grid-area: p1;
-    }
-
-    .puma2{
-        grid-area: p2;
-    }
-
-    .puma3{
-        grid-area: p3;
-    }
 }
 
 @media screen and (min-width: 1350px) and (max-width: 1440px) {
@@ -379,7 +307,8 @@ header i {
         grid-template-columns: repeat(3, 1fr);
     }
 
-    header .add-link, header .back-added-link {
+    header .add-link,
+    header .back-added-link {
         display: none;
     }
 
@@ -428,31 +357,6 @@ header i {
         background-color: #B0BC70;
     }
 
-    .puma-displayer{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 698px;
-        background-color: #B0BC70;
-    }
-
-    .puma1{
-        grid-area: 1/1/2/2;
-        justify-self: center;
-        align-self: center;
-        text-align: center; 
-    }
-    .puma2 {
-        grid-area: 1/2/2/3;
-        justify-self: center;
-        align-self: center;
-        text-align: center;
-    }
-    .puma3 {
-        grid-area: 1/3/2/4;
-        justify-self: center;
-        align-self: center;
-        text-align: center;
-    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -477,7 +381,8 @@ header i {
         grid-template-columns: repeat(3, 1fr);
     }
 
-    header .add-link, header .back-added-link {
+    header .add-link,
+    header .back-added-link {
         display: none;
     }
 
@@ -526,29 +431,4 @@ header i {
         background-color: #B0BC70;
     }
 
-    .puma-displayer{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 698px;
-        background-color: #B0BC70;
-    }
-
-    .puma1{
-        grid-area: 1/1/2/2;
-        justify-self: center;
-        align-self: center;
-        text-align: center; 
-    }
-    .puma2 {
-        grid-area: 1/2/2/3;
-        justify-self: center;
-        align-self: center;
-        text-align: center;
-    }
-    .puma3 {
-        grid-area: 1/3/2/4;
-        justify-self: center;
-        align-self: center;
-        text-align: center;
-    }
 }
